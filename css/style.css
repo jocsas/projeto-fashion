@@ -1,0 +1,127 @@
+#content{
+    margin: auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif
+}
+.top-content{
+    background-image: url(../imagens/topo.jpg);
+    height: 488px;
+    background-repeat: no-repeat;
+    border: solid transparent;
+    position: relative;
+}
+.top-content img{
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 4px;
+}
+.top-content nav ul{
+    text-align: right;
+    margin: 20px 30px 0 0;
+    background-color: #081a24;
+    padding: 15px;
+    margin: 0 0 0 0 ;
+    
+}
+.top-content nav li{
+    display: inline-block;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin-right: 25px;
+    
+}
+.navigation{
+    text-decoration: none;
+    color: #215458;
+    font-size: 12px;
+    font-weight: 500;
+    transition: color 0.3s linear;
+}
+.navigation:hover{
+    color: white;
+}
+.texto-um{
+    text-align: center;
+    padding: 0px 85px;
+    margin-top: 75px;
+}
+.texto-um h1{
+   color: #202022;
+   font-size: 35px;
+
+}
+.texto-um p{
+    color: #635a55;
+    line-height: 2.2;
+}
+.cards{
+    overflow: auto;
+    padding: 0px 85px;
+    margin-top: 75px;
+}
+.modelos{
+    float: left;
+    width: 32%;
+    box-sizing: border-box;
+}
+.modelos img{
+    display: block;
+    width: 100%;
+    
+}
+.modelo-um,.modelo-dois{
+    margin-right: 2%;
+}
+
+.cards h2{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align:center;
+    margin-top: 13px;
+    color: #545452; 
+}
+.modelos p{
+    text-align: center;
+    margin-top: 0%;
+    color: #a1a19f;
+    font-size: 15px;
+}
+.artigo{
+    background-image: url(../imagens/bg-detalhe2.png);
+    height: 565px;
+    margin-top: 85px;
+
+}
+.artigo h1{
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding:100px 100px 0px 100px;
+    font-weight: 500;
+}
+.artigo p{
+    color: white;
+    text-align: left;
+    padding: 0px 400px 0px 100px;
+    line-height: 1.5;
+}
+.contact{
+    color: #003d54;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+.map{
+    margin-top: 50px;
+}
+footer{
+    background-color: black;
+    color: #4a8778;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    letter-spacing: 6px;
+    font-size: 12px;
+}
